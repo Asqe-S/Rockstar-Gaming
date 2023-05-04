@@ -1,0 +1,246 @@
+
+ a:link,a:visited{
+  text-decoration: none;
+  color: black !important; 
+ }
+
+ *{
+  list-style: none;
+  font-weight: 500;
+ }
+body{
+  background: #fcaf17;
+background: radial-gradient(circle, rgba(193,136,25,0.8602150537634409) 0%, rgba(170,139,80,0.8790322580645161) 50%, rgba(74,72,72,0.814516129032258) 100%);
+}
+ 
+ /* head part */
+  
+  .offcanvas .offcanvas-body {
+    justify-content: end;
+  }
+
+  .btnSvg {
+    border: .1rem solid #fcaf17;
+    border-radius: .3rem;
+    padding: .3rem .7rem;
+  }
+  svg.logo{
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  .offcanvas.offcanvas-end {
+width: 100%;
+
+  }
+.offcanvas-body{background: #fcaf17 !important;
+  background: radial-gradient(circle, rgba(193,136,25,0.8602150537634409) 0%, rgba(170,139,80,0.8790322580645161) 50%, rgba(74,72,72,0.814516129032258) 100%) !important;
+}
+
+  /* second part */
+  .fIcon{
+    font-size: 2rem;
+    color:#fcaf17 ;
+    background: #000;
+    border-radius: 50%;
+  }
+.row{
+  margin: 1rem;
+}
+
+.card{
+    padding-bottom: 1rem;
+    height: 98%;
+}
+
+/* off canvas */
+
+.offcanvas-body a:hover{
+  background-color: #000;
+  color: #fcaf17 !important;
+}
+.offcanvas-body a{
+  padding-left: .5rem;
+}
+
+.offcanvas-body .nav-item{
+  line-height: 1.5;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+/* carousal part */
+.gg{
+  height: 40vh;
+  width: 75vw;
+  margin: 0 auto !important;
+}
+.carousal{
+  /* height: 40dvh; */
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: .5rem;
+}
+.carousel-caption.d-md-block h1{
+  font-size: 1rem;
+}
+
+
+ .carousel-indicators{
+  margin: 0 auto;
+  margin-bottom:.7rem;
+  background-color: #00000096;
+ }
+ .indicator{
+  background-color: #fcaf17 !important;  
+   height: .2rem !important;
+  width: 4.5rem !important;
+  border-radius: .6rem;
+ }
+ .cap{
+  bottom: .6rem;
+  color: rgba(0, 0, 0) !important;
+ }
+
+ .cap h1 {
+  font-size: 1.3rem;
+  margin: 0 0 .3rem;
+  padding: 0.2rem;
+  background-color: #fcb017c7;
+  border: .1rem solid rgba(0, 0, 0, 0.7);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.6);
+}
+.cap button {
+  margin: 0 0 .3rem;
+  padding: 0;
+  background-color: #fcb017;
+  border: .1rem solid rgba(0, 0, 0 );
+  border-bottom: 4px solid rgba(0, 0, 0);
+  
+}
+.cap button:hover{
+  border: .1rem solid rgba(0, 0, 0, 0.7);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.6);
+  background-color: #fcb017b7;
+}
+
+.cap a{
+  
+  padding: 0.3rem;
+   font-size: 1.3rem;
+}
+
+.card-link p{
+  display: inline-block;
+  color: red !important;
+}
+
+
+.viewMore{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.viewMore a{
+  /* color: green !important; */
+  border-radius: .3rem;
+  padding: .3rem .5rem 0 .3rem;
+  text-decoration: none;
+  transition: .4s ease-in-out;
+  border: .1rem solid rgba(0, 0, 0, 0.7);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.6);
+}
+
+.viewMore a:hover{
+background-color: #d3d4d590;
+}
+
+
+.svgIcons{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.svgIcons i{
+  margin-right: 1rem;
+}
+
+.about{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.bottomSection li a{
+  margin: 1rem;
+  line-height: 2;
+  padding: .3rem;
+  border-radius: .3rem;
+}
+.bottomSection a:hover{
+  color: #fcb017 !important;
+  background-color:rgba(0, 0, 0, 0.3) ;
+  border: .1rem solid rgba(0, 0, 0, 0.7);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.6);
+}
+.about li a{
+ margin-right: .5rem;
+ text-align: center;
+}
+
+.about2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+ .about2ul ul{
+  display: flex;
+}
+
+
+
+
+@media (max-width: 767.98px) { 
+  .cap h1,.cap a{
+    font-size: 1rem;
+    
+  }
+  .indicator{
+   width: 4rem !important;
+  }
+  
+ }
+@media (max-width: 575.98px) { 
+  .cap h1,.cap a{
+    font-size: .6rem;
+  }
+  .indicator{
+   width: 3.5rem !important;
+  }
+ 
+  
+  
+ }
+
+
+
+.card{
+  padding-bottom: .5rem;
+}
+ .card-body{
+  padding: .2rem;
+ }
+
+ .card-body img{
+ transition: 1s ease-in-out;
+ }
+ .imgDiv img:hover{
+  
+scale: 1.1;
+ }
+  .imgDiv{
+  height: auto;
+  overflow: hidden;
+  border-radius: .5rem;
+ }
